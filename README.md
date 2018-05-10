@@ -2,11 +2,11 @@
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/@cloudcmd/formatify.svg?style=flat
 [BuildStatusIMGURL]:        https://img.shields.io/travis/cloudcmd/formatify/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/cloudcmd/formatify.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/david/cloudcmd/formatify.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/@cloudcmd/formatify "npm"
 [BuildStatusURL]:           https://travis-ci.org/cloudcmd/formatify  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/cloudcmd/formatify "Dependency Status"
+[DependencyStatusURL]:      https://david-dm.org/cloudcmd/formatify "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
 Format directory content received by [readify](https://github.com/coderaiser/readify).
