@@ -20,7 +20,7 @@
     "watcher": "nodemon -w test -w lib --exec"
   },
   "dependencies": {
-    "format-io": "^0.9.6",
+    "format-io": "^1.0.1",
     "shortdate": "^1.2.0"
   },
   "keywords": [
