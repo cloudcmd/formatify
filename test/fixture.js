@@ -29,6 +29,6 @@ module.exports.libDir = {
     size: 'dir',
     date: '',
     owner: 0,
-    mode: 'rw- rw- r--'
+    mode: 'rw- rw- r--',
 };
 

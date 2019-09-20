@@ -9,15 +9,16 @@
     "url": "git://github.com/cloudcmd/formatify.git"
   },
   "scripts": {
-    "lint": "redrun lint:*",
-    "lint:eslint:lib": "eslint lib",
-    "lint:eslint:test": "eslint -c .eslintrc.test test --no-eslintrc",
-    "report": "nyc report --reporter=text-lcov | coveralls",
-    "coverage": "nyc npm test",
-    "test": "tape test/*.js",
-    "watch:coverage": "npm run watcher -- npm run coverage",
-    "watch:test": "npm run watcher -- npm test",
-    "watcher": "nodemon -w test -w lib --exec"
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "lint:eslint:lib": "madrun lint:eslint:lib",
+    "lint:eslint:test": "madrun lint:eslint:test",
+    "report": "madrun report",
+    "coverage": "madrun coverage",
+    "test": "madrun test",
+    "watch:coverage": "madrun watch:coverage",
+    "watch:test": "madrun watch:test",
+    "watcher": "madrun watcher"
   },
   "dependencies": {
     "format-io": "^2.0.0",
@@ -39,8 +40,13 @@
   "devDependencies": {
     "coveralls": "^3.0.0",
     "eslint": "^6.4.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-putout": "^2.0.0",
+    "madrun": "^3.0.5",
     "mkdirp": "^0.5.1",
     "nodemon": "^1.11.0",
-    "nyc": "^14.1.1"
+    "nyc": "^14.1.1",
+    "putout": "^6.1.0",
+    "supertape": "^1.2.3"
   }
 }

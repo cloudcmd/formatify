@@ -1,7 +1,7 @@
 'use strict';
 
 const formatify = require('..');
-const test = require('tape');
+const test = require('supertape');
 
 const {
     testDir,
@@ -14,10 +14,10 @@ const {
     testRaw,
     libRaw,
     readifyRaw,
-    sortifyRaw
+    sortifyRaw,
 } = require('./fixture-raw');
 
-test('arguments: exception when no files', t => {
+test('arguments: exception when no files', (t) => {
     t.throws(formatify, /files should be an array!/, 'should throw when no files');
     t.end();
 });
