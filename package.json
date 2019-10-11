@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "format-io": "^2.0.0",
-    "shortdate": "^1.2.0"
+    "shortdate": "^2.0.0"
   },
   "keywords": [
     "format",
