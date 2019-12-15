@@ -46,7 +46,7 @@
     "mkdirp": "^0.5.1",
     "nodemon": "^1.11.0",
     "nyc": "^14.1.1",
-    "putout": "^6.1.0",
+    "putout": "^7.3.1",
     "supertape": "^1.2.3"
   },
   "publishConfig": {
