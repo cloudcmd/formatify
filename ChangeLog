@@ -1,3 +1,20 @@
+2024.08.16, v2.0.0
+
+feature:
+- d553100 formatify: drop support of node < 18
+- 4ea5c5d @cloudcmd/formatify: try-catch v3.0.1
+- 6909522 @cloudcmd/formatify: nodemon v3.1.4
+- a599cd9 @cloudcmd/formatify: mkdirp v3.0.1
+- 5603d20 @cloudcmd/formatify: madrun v10.1.0
+- 39fc066 @cloudcmd/formatify: eslint-plugin-putout v22.10.0
+- 62c1eeb @cloudcmd/formatify: eslint v9.9.0
+- d28af1b @cloudcmd/formatify: c8 v10.1.2
+- 1a70dc4 @cloudcmd/formatify: supertape v10.7.2
+- 368c9d6 @cloudcmd/formatify: putout v36.0.4
+- 8fcc028 (package) madrun v5.0.1
+- 1cd1d3e (package) eslint-plugin-putout v3.0.0
+- e38f11b (package) putout v7.3.1
+
 2019.10.11, v1.0.4
 
 feature:
