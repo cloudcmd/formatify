@@ -7,3 +7,5 @@ coverage
 
 madrun.js
 
+yarn-error.log
+*.config.*

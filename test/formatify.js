@@ -1,5 +1,6 @@
 'use strict';
 
+const tryCatch = require('try-catch');
 const formatify = require('..');
 const test = require('supertape');
 
@@ -17,12 +18,14 @@ const {
     sortifyRaw,
 } = require('./fixture-raw');
 
-test('arguments: exception when no files', (t) => {
-    t.throws(formatify, /files should be an array!/, 'should throw when no files');
+test('formatify: arguments: exception when no files', (t) => {
+    const [error] = tryCatch(formatify);
+    
+    t.equal(error.message, 'files should be an array!', 'should throw when no files');
     t.end();
 });
 
-test('result', (t) => {
+test('formatify: result', (t) => {
     const files = [
         testRaw,
         libRaw,
@@ -39,7 +42,6 @@ test('result', (t) => {
     
     const result = formatify(files);
     
-    t.deepEqual(result, expected, 'should equal');
+    t.deepEqual(result, expected);
     t.end();
 });
-

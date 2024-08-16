@@ -7,7 +7,7 @@ module.exports.sortifyRaw = {
     size: 3538,
     date,
     owner: 0,
-    mode: 33204,
+    mode: 33_204,
 };
 
 module.exports.testRaw = {
@@ -15,7 +15,7 @@ module.exports.testRaw = {
     size: 'dir',
     date,
     owner: 0,
-    mode: 33204,
+    mode: 33_204,
 };
 
 module.exports.readifyRaw = {
@@ -23,7 +23,7 @@ module.exports.readifyRaw = {
     size: 1629,
     date,
     owner: 0,
-    mode: 33204,
+    mode: 33_204,
 };
 
 module.exports.libRaw = {
@@ -31,6 +31,5 @@ module.exports.libRaw = {
     size: 'dir',
     date: 0,
     owner: 0,
-    mode: 33204,
+    mode: 33_204,
 };
-

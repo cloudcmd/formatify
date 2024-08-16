@@ -31,4 +31,3 @@ module.exports.libDir = {
     owner: 0,
     mode: 'rw- rw- r--',
 };
-
