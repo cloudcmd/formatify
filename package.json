@@ -41,7 +41,7 @@
     "c8": "^10.1.2",
     "coveralls": "^3.0.0",
     "eslint": "^9.9.0",
-    "eslint-plugin-putout": "^3.0.0",
+    "eslint-plugin-putout": "^22.10.0",
     "madrun": "^5.0.1",
     "mkdirp": "^0.5.1",
     "nodemon": "^1.11.0",
