@@ -1,6 +1,7 @@
 {
   "name": "@cloudcmd/formatify",
   "version": "1.0.4",
+  "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "format directory content",
   "homepage": "http://github.com/cloudcmd/formatify",
@@ -46,7 +47,8 @@
     "mkdirp": "^3.0.1",
     "nodemon": "^3.1.4",
     "putout": "^36.0.4",
-    "supertape": "^10.7.2"
+    "supertape": "^10.7.2",
+    "try-catch": "^3.0.1"
   },
   "publishConfig": {
     "access": "public"
