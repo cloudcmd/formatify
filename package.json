@@ -43,7 +43,7 @@
     "eslint": "^9.9.0",
     "eslint-plugin-putout": "^22.10.0",
     "madrun": "^10.1.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^3.0.1",
     "nodemon": "^1.11.0",
     "putout": "^36.0.4",
     "supertape": "^10.7.2"
