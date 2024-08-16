@@ -1,10 +1,10 @@
 # Formatify [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 [NPMIMGURL]: https://img.shields.io/npm/v/@cloudcmd/formatify.svg?style=flat
-[BuildStatusIMGURL]: https://img.shields.io/travis/cloudcmd/formatify/master.svg?style=flat
+[BuildStatusIMGURL]: https://github.com/cloudcmd/formatify/actions/workflows/nodejs.yml/badge.svg
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]: https://npmjs.org/package/@cloudcmd/formatify "npm"
-[BuildStatusURL]: https://travis-ci.org/cloudcmd/formatify "Build Status"
+[BuildStatusURL]: https://github.com/cloudcmd/formatify/actions/workflows/nodejs.yml
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
 
 Format directory content received by [readify](https://github.com/coderaiser/readify).
