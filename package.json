@@ -7,7 +7,7 @@
   "homepage": "http://github.com/cloudcmd/formatify",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cloudcmd/formatify.git"
+    "url": "git+https://github.com/cloudcmd/formatify.git"
   },
   "scripts": {
     "lint": "madrun lint",

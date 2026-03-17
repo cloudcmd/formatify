@@ -1,8 +1,9 @@
 'use strict';
 
-const tryCatch = require('try-catch');
+const {tryCatch} = require('try-catch');
+
+const {test} = require('supertape');
 const formatify = require('..');
-const test = require('supertape');
 
 const {
     testDir,
