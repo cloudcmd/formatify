@@ -1,3 +1,17 @@
+2026.03.17, v3.0.0
+
+feature:
+- ef0d29b @cloudcmd/formatify: export: default -> named
+- 42be3e4 @cloudcmd/formatify: migrate to ESM
+- 563ac54 @cloudcmd/formatify: drop support of node < 22
+- c188667 @cloudcmd/formatify: try-catch v4.0.9
+- 441ca8f @cloudcmd/formatify: supertape v12.10.5
+- e821920 @cloudcmd/formatify: putout v42.2.3
+- 8bd76a4 @cloudcmd/formatify: madrun v13.0.1
+- 4a7d093 @cloudcmd/formatify: eslint-plugin-putout v31.1.1
+- e941576 @cloudcmd/formatify: eslint v10.0.3
+- b0c23f3 @cloudcmd/formatify: superc8 v12.3.1
+
 2024.08.16, v2.0.1
 
 fix:
