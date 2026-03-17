@@ -47,7 +47,7 @@
     "nodemon": "^3.1.4",
     "putout": "^42.2.3",
     "superc8": "^12.3.1",
-    "supertape": "^10.7.2",
+    "supertape": "^12.10.5",
     "try-catch": "^3.0.1"
   },
   "publishConfig": {
