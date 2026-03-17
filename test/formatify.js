@@ -1,6 +1,6 @@
 import {tryCatch} from 'try-catch';
 import {test} from 'supertape';
-import formatify from '../lib/formatify.js';
+import {formatify} from '../lib/formatify.js';
 import {
     testDir,
     libDir,

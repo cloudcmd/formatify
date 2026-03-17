@@ -24,6 +24,8 @@ npm i @cloudcmd/formatify --save
 ## Examples
 
 ```js
+import {formatify} from '@cloudcmd/formatify';
+
 const files = [{
     name: 'sortify.js',
     size: 3538,
