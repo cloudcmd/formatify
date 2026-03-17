@@ -1,8 +1,6 @@
-'use strict';
-
 const date = new Date('2017-01-12T09:01:35.288Z');
 
-module.exports.sortifyRaw = {
+export const sortifyRaw = {
     name: 'sortify.js',
     size: 3538,
     date,
@@ -10,7 +8,7 @@ module.exports.sortifyRaw = {
     mode: 33_204,
 };
 
-module.exports.testRaw = {
+export const testRaw = {
     name: 'test',
     size: 'dir',
     date,
@@ -18,7 +16,7 @@ module.exports.testRaw = {
     mode: 33_204,
 };
 
-module.exports.readifyRaw = {
+export const readifyRaw = {
     name: 'readify.js',
     size: 1629,
     date,
@@ -26,7 +24,7 @@ module.exports.readifyRaw = {
     mode: 33_204,
 };
 
-module.exports.libRaw = {
+export const libRaw = {
     name: 'lib',
     size: 'dir',
     date: 0,

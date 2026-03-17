@@ -1,23 +1,18 @@
-'use strict';
-
-const {tryCatch} = require('try-catch');
-
-const {test} = require('supertape');
-const formatify = require('..');
-
-const {
+import {tryCatch} from 'try-catch';
+import {test} from 'supertape';
+import formatify from '../lib/formatify.js';
+import {
     testDir,
     libDir,
     readifyFile,
     sortifyFile,
-} = require('./fixture');
-
-const {
+} from './fixture.js';
+import {
     testRaw,
     libRaw,
     readifyRaw,
     sortifyRaw,
-} = require('./fixture-raw');
+} from './fixture-raw.js';
 
 test('formatify: arguments: exception when no files', (t) => {
     const [error] = tryCatch(formatify);

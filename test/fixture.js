@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports.sortifyFile = {
+export const sortifyFile = {
     name: 'sortify.js',
     size: '3.46kb',
     date: '12.01.2017',
@@ -8,7 +6,7 @@ module.exports.sortifyFile = {
     mode: 'rw- rw- r--',
 };
 
-module.exports.testDir = {
+export const testDir = {
     name: 'test',
     size: 'dir',
     date: '12.01.2017',
@@ -16,7 +14,7 @@ module.exports.testDir = {
     mode: 'rw- rw- r--',
 };
 
-module.exports.readifyFile = {
+export const readifyFile = {
     name: 'readify.js',
     size: '1.59kb',
     date: '12.01.2017',
@@ -24,7 +22,7 @@ module.exports.readifyFile = {
     mode: 'rw- rw- r--',
 };
 
-module.exports.libDir = {
+export const libDir = {
     name: 'lib',
     size: 'dir',
     date: '',
