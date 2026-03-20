@@ -1,3 +1,8 @@
+2026.03.20, v3.1.0
+
+feature:
+- b7efee2 @cloudcmd/formatify: add ability to return time (coderaiser/cloudcmd#230)
+
 2026.03.17, v3.0.0
 
 feature:
