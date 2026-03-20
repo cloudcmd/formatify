@@ -41,3 +41,23 @@ test('formatify: result', (t) => {
     t.deepEqual(result, expected);
     t.end();
 });
+
+test('formatify: result: same year -> return time', (t) => {
+    const files = [
+        sortifyRaw,
+    ];
+    
+    const expected = [{
+        date: '12.01.2017',
+        mode: 'rw- rw- r--',
+        name: 'sortify.js',
+        owner: 0,
+        size: '3.46kb',
+        time: '11:01:35',
+    }];
+    
+    const result = formatify(files);
+    
+    t.deepEqual(result, expected);
+    t.end();
+});

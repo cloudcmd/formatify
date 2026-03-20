@@ -48,12 +48,14 @@ formatify(files);
     date: '12.01.2017',
     owner: 0,
     mode: 'rw- rw- r--',
+    time: '10:30:30',
 }, {
     name: 'readify.js',
     size: '1.59kb',
     date: '12.01.2017',
     owner: 0,
     mode: 'rw- rw- r--',
+    time: '10:30:30',
 }];
 ```
 

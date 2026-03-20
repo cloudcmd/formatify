@@ -4,6 +4,7 @@ export const sortifyFile = {
     date: '12.01.2017',
     owner: 0,
     mode: 'rw- rw- r--',
+    time: '11:01:35',
 };
 
 export const testDir = {
@@ -12,6 +13,7 @@ export const testDir = {
     date: '12.01.2017',
     owner: 0,
     mode: 'rw- rw- r--',
+    time: '11:01:35',
 };
 
 export const readifyFile = {
@@ -20,6 +22,7 @@ export const readifyFile = {
     date: '12.01.2017',
     owner: 0,
     mode: 'rw- rw- r--',
+    time: '11:01:35',
 };
 
 export const libDir = {
@@ -28,4 +31,5 @@ export const libDir = {
     date: '',
     owner: 0,
     mode: 'rw- rw- r--',
+    time: '',
 };
